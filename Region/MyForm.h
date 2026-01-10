@@ -293,7 +293,7 @@ namespace Region {
 			// 
 			this->textBox18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->textBox18->Location = System::Drawing::Point(368, 440);
+			this->textBox18->Location = System::Drawing::Point(368, 453);
 			this->textBox18->Name = L"textBox18";
 			this->textBox18->ReadOnly = true;
 			this->textBox18->Size = System::Drawing::Size(152, 26);
@@ -301,13 +301,13 @@ namespace Region {
 			// 
 			// button2
 			// 
-			this->button2->BackColor = System::Drawing::SystemColors::HotTrack;
+			this->button2->BackColor = System::Drawing::Color::Red;
 			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 14.25F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->button2->ForeColor = System::Drawing::SystemColors::ControlLightLight;
-			this->button2->Location = System::Drawing::Point(534, 436);
+			this->button2->Location = System::Drawing::Point(534, 434);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(88, 35);
+			this->button2->Size = System::Drawing::Size(111, 54);
 			this->button2->TabIndex = 19;
 			this->button2->Text = L"Сброс";
 			this->button2->UseVisualStyleBackColor = false;
@@ -318,29 +318,29 @@ namespace Region {
 			this->label1->AutoSize = true;
 			this->label1->Font = (gcnew System::Drawing::Font(L"Monotype Corsiva", 14.25F, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
-			this->label1->Location = System::Drawing::Point(66, 311);
+			this->label1->Location = System::Drawing::Point(41, 311);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(53, 22);
+			this->label1->Size = System::Drawing::Size(95, 22);
 			this->label1->TabIndex = 20;
-			this->label1->Text = L"Цвет";
+			this->label1->Text = L"Цвет вина";
 			// 
 			// label2
 			// 
 			this->label2->AutoSize = true;
 			this->label2->Font = (gcnew System::Drawing::Font(L"Monotype Corsiva", 14.25F, static_cast<System::Drawing::FontStyle>((System::Drawing::FontStyle::Bold | System::Drawing::FontStyle::Italic)),
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(204)));
-			this->label2->Location = System::Drawing::Point(202, 311);
+			this->label2->Location = System::Drawing::Point(182, 311);
 			this->label2->Name = L"label2";
-			this->label2->Size = System::Drawing::Size(52, 22);
+			this->label2->Size = System::Drawing::Size(94, 22);
 			this->label2->TabIndex = 21;
-			this->label2->Text = L"Сорт";
+			this->label2->Text = L"Сорт вина";
 			// 
 			// label3
 			// 
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label3->Location = System::Drawing::Point(268, 439);
+			this->label3->Location = System::Drawing::Point(267, 452);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(95, 25);
 			this->label3->TabIndex = 22;
