@@ -183,7 +183,7 @@ namespace Region {
 			this->button1->BackColor = System::Drawing::SystemColors::ActiveCaption;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button1->Location = System::Drawing::Point(36, 387);
+			this->button1->Location = System::Drawing::Point(34, 368);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(188, 30);
 			this->button1->TabIndex = 3;
@@ -293,7 +293,7 @@ namespace Region {
 			// 
 			this->textBox18->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->textBox18->Location = System::Drawing::Point(368, 453);
+			this->textBox18->Location = System::Drawing::Point(368, 464);
 			this->textBox18->Name = L"textBox18";
 			this->textBox18->ReadOnly = true;
 			this->textBox18->Size = System::Drawing::Size(152, 26);
@@ -340,11 +340,11 @@ namespace Region {
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 15.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label3->Location = System::Drawing::Point(267, 452);
+			this->label3->Location = System::Drawing::Point(125, 463);
 			this->label3->Name = L"label3";
-			this->label3->Size = System::Drawing::Size(95, 25);
+			this->label3->Size = System::Drawing::Size(237, 25);
 			this->label3->TabIndex = 22;
-			this->label3->Text = L"Регион:";
+			this->label3->Text = L"Результат прогноза:";
 			// 
 			// textBox19
 			// 
@@ -391,7 +391,7 @@ namespace Region {
 			this->button3->BackColor = System::Drawing::SystemColors::ActiveCaption;
 			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button3->Location = System::Drawing::Point(36, 434);
+			this->button3->Location = System::Drawing::Point(34, 404);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(188, 30);
 			this->button3->TabIndex = 27;
