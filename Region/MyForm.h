@@ -180,12 +180,12 @@ namespace Region {
 			// 
 			// button1
 			// 
-			this->button1->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->button1->BackColor = System::Drawing::Color::Lime;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->button1->Location = System::Drawing::Point(36, 387);
+			this->button1->Location = System::Drawing::Point(36, 372);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(188, 30);
+			this->button1->Size = System::Drawing::Size(201, 45);
 			this->button1->TabIndex = 3;
 			this->button1->Text = L"Метод Boosted Trees";
 			this->button1->UseVisualStyleBackColor = false;
@@ -388,12 +388,13 @@ namespace Region {
 			// 
 			// button3
 			// 
-			this->button3->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->button3->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(128)), static_cast<System::Int32>(static_cast<System::Byte>(128)),
+				static_cast<System::Int32>(static_cast<System::Byte>(255)));
 			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->button3->Location = System::Drawing::Point(36, 434);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(188, 30);
+			this->button3->Size = System::Drawing::Size(201, 43);
 			this->button3->TabIndex = 27;
 			this->button3->Text = L"Метод Random Forest";
 			this->button3->UseVisualStyleBackColor = false;
