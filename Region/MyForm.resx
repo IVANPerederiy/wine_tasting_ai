@@ -117,11 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label23.Text" xml:space="preserve">
-    <value>Введите значения 15 химических элементов, а также цвет вина (1 - White, 2 - Red)
- и сорт (1 - Chardonnay, 2 - Riesling, 3 - Muscat, 4 - Cabernet, 5 - Merlot), 
-чтобы определить регион его происхождения, 
-а также вероятности принадлежности к каждому региону. 
-Доступные методы: Метод Boosted Trees и Метод Random Forest</value>
-  </data>
 </root>
